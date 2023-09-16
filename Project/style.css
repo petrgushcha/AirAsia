@@ -1,0 +1,405 @@
+*{
+    box-sizing: border-box;
+    color: #ffff;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,h2,h3,h4,p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+
+ul,li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    border: 1px solid transparent;
+    background: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+address{
+    font-style: normal;
+}
+
+.container{
+    width: 1141px;
+    margin: 0 auto;
+}
+
+.wrapper{
+    background: #001821;
+    overflow-x: hidden;
+}
+
+.header{
+    position: relative;
+    min-height: 123px;
+    top: 27px;
+    margin-bottom: 67px;
+}
+
+.logo{
+    position: absolute;
+}
+
+.menu{
+    position: absolute;
+    left: 28%;
+    transform: translatex(-50%);
+    top: 16px;
+}
+
+.menu__item{
+    display: inline-block;
+    margin-right: 43px;
+    height: 19px;
+}
+
+.menu__item last-child{
+    margin-right: 0;
+}
+
+.menu__title:hover{
+    color: #D9D9D9;
+    
+}
+
+.contacts__phone{
+    font-size: 26px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+
+}
+
+.contacts__workhours{
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    top: 27px;
+    text-decoration: underline;
+}
+
+.preview{
+    top: 390px;
+    height: 333px;
+    width: 511px;
+    border-radius: 35;
+    margin-bottom: 246px;
+}
+
+.preview__title{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 98px;
+    margin-bottom: 28px;;
+}
+
+.preview__text{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 34px;
+}
+.button{
+    background-color: #F5170E;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 35px;
+    padding: 18px 40px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.button:hover{
+    background-color: #DA0100;
+}
+
+.hot-tours{
+    height: 549px;
+    width: 1140px;
+    margin-bottom: 127px;
+}
+
+.hot-tours__neim{
+    display: inline-block;
+    width: 1140px;
+    max-height: 49px;
+    margin-bottom: 51px;
+    
+}
+
+.hot-tours__neim-text{
+    width: 273px;
+    max-height: 49px;
+    font-size: 36px;
+    font-weight: 700;
+    margin-right: 12px;
+}
+
+.hot-tours__text{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.hot-tours__icon{
+    width: 21px;
+}
+
+.hot-tours__item{
+    min-height: 449px;
+    width: 362px;
+    display: inline-block;
+    margin-right: 14px;
+    background-color: #ffff;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.hot-tours__item last-child{
+    margin-right: 0px;
+}
+
+.hot-tours__img{
+    margin-bottom: 33px;
+}
+
+.hot-tours__content{
+    margin-left: 22px;
+}
+
+.hot-tours__subtitle{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.hot-tours__feat{
+    height: 26px;
+    width: 272px;
+    margin-bottom: 30px;
+}
+
+.hot-tours__feat-block{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.hot-tours__feat-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    display: inline-block;
+}
+
+.hot-tours__info{
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+
+.button--hot{
+    background-color: transparent;
+    color: #F5170E;
+    border-color: #F5170E;
+}
+
+.button--hot:hover{
+    color: #ffff;
+}
+
+.news{
+    height: 600px;
+    width: 1139px;
+    margin-bottom: 124px;
+}
+
+.news__titl{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 51px;
+}
+
+.news__item{
+    width: 557px;
+    height: 394px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.news__item :last-child{
+    margin-right: 0px;
+}
+
+.news__text{
+    position: relative;
+    bottom: 142px;
+    left: 30px;
+}
+
+.news__date{
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 13px;
+}
+
+.news__title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.news__inf{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.news__list{
+    margin-bottom: 53px;
+}
+
+.paginator{
+    position: relative;
+    left: 50%;
+    transform: translatex(-50%);
+    height: 53px;
+    width: 375px;
+    position: relative;
+}
+
+.paginator__display{
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.paginator__list{
+    position: absolute;
+    right: 0px;
+    top: -1px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.paginator__item{
+    display: inline-block;
+    margin-right: 0px;
+}
+
+.paginator__link{
+    display: inline-block;
+    padding: 5px 11px;
+    border-radius: 50%;
+    background-color: transparent;
+    transition: .4s;
+}
+
+.paginator__link:hover{
+    color: #F5170E;
+    background-color:#ffff;
+}
+
+.about-us{
+    margin-bottom: 53px;
+}
+
+.about-us__block{
+    height: 552px;
+}
+
+.about-us__module{
+    position: relative;
+    top: -408px;
+    left: 337px;
+}
+
+.about-us__inf{
+    width: 502px;
+    position: absolute;
+    top: 70px;
+    left: 81px;
+}
+
+.about-us__title{
+    font-size: 36px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 36px;
+}
+
+.about-us__text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 43px;
+}
+
+.footer{
+    position: relative;
+    height: 93px;
+    margin-bottom: 50px;
+}
+
+.footer__logo{
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer__menu{
+    position: absolute;
+    left: 28%;
+    transform: translatex(-50%);
+    bottom: 0px;
+}
+
+.socials{
+    position: absolute;
+    left: 72%;
+    transform: translatex(-50%);
+    bottom: 0px;
+    width: 174px;
+}
+
+.socials__items{
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.contacts__price{
+    font-size: 11px;
+    font-weight: 400;
+    color: #9A9A9A;
+    position: absolute;
+    right: 0px;
+    bottom: 40px;
+}
+
+.footer-contacts__phone{
+    font-size: 26px;
+    font-weight: 400;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+.main-page-wrapper{
+    background: url(./1.png) center top no-repeat, url(./2.png) center bottom 100px no-repeat;
+}
