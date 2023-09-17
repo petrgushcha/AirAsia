@@ -158,6 +158,9 @@ address{
 
 .hot-tours__icon{
     width: 21px;
+    position: relative;
+    left: 285px;
+    bottom: 35px;
 }
 
 .hot-tours__item{
