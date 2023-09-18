@@ -322,10 +322,9 @@ address{
     margin-top: 100px;
 }
 
-.юabout-us__mauntains{
+.about-us__mauntains{
     position: absolute;
     width: 100%;
-    height: 100%;
 }
 
 .about-us__inf{
@@ -353,10 +352,8 @@ address{
     position: relative;
     margin-bottom: 30px;
     height: 97px;
-}
-
-.line{
-    margin-bottom: 45px;
+    border-top:1px solid #ffff ;
+    padding-top: 45px;
 }
 
 .logo{
