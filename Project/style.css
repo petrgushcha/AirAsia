@@ -316,10 +316,16 @@ address{
 .about-us__module{
     position: relative;
     display: inline-block;
-    width: 500px;
+    width: 800px;
     vertical-align: top;
     margin-left: -155px;
     margin-top: 100px;
+}
+
+.юabout-us__mauntains{
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
 
 .about-us__inf{
@@ -345,17 +351,22 @@ address{
 
 .footer{
     position: relative;
-    height: 93px;
+    margin-bottom: 30px;
+    height: 97px;
 }
 
-.footer__logo{
+.line{
+    margin-bottom: 45px;
+}
+
+.logo{
     position: absolute;
 }
 
 .footer__menu{
     position: absolute;
     left: 18%;
-    top: 12px;
+    top: 57px;
 }
 
 .socials{
