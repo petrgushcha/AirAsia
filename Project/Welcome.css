@@ -1,0 +1,61 @@
+.welcome{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: url(./picture/bg.png) center bottom /cover no-repeat;
+}
+
+.central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.central__logo{
+    height: 119px;
+}
+
+.central__text{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 52px;
+}
+
+.central{
+    opacity: 0;
+    animation: zoom 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom{
+    from {
+        transform: scale(.7);
+    }
+
+    20% {
+        transform: scale(1.15);
+    }
+
+    40% {
+        transform: scale(.9);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}

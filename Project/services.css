@@ -1,0 +1,194 @@
+.container{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header{
+    margin-bottom: 0px;
+}
+
+.page-content{
+    margin-bottom: 63px;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
+}
+
+.services__item:hover .button--white{
+    color: #ffff;
+    background-color: #F5170E;
+}
+
+.services__item{
+    display: flex;
+    margin-bottom: 39px;
+}
+
+.services__item:last-child{
+    margin-bottom: 0px;
+}
+
+.services__img{
+    width: 40%;
+    margin-right: 7%;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
+
+.services__content{
+    flex: 1;
+}
+
+.services__title{
+    margin-bottom: 28px;
+}
+
+.services__text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #303030;
+    margin-bottom: 34px;
+}
+
+.paginator__link{
+    color: #000;
+}
+
+.paginator__link:hover{
+    color: #ffff;
+    background-color:#F5170E;
+}
+
+.partner{
+    background-color: #F4F5F5;
+    color: #1A1B1E;
+    padding: 88px 0;
+}
+
+.partner__title{
+    margin-bottom: 79px;
+}
+
+.partner__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner__item{
+    margin-left: 10px;
+}
+
+.partner__item:nth-child(4n+1){
+    margin-left: 0px;
+}
+
+.partner__link{
+    text-decoration: none;
+    display: flex;
+    width: 270px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.partner__link:after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.pobeda::after{
+    width: 226px; 
+    height: 37px;
+    background: url('./partner/css_sprites_pobeda.png') -10px -10px;
+}
+
+.pobeda:hover:after{
+    background-position: -10px -67px;
+}
+
+.s7:after{
+    width: 171px;
+    height: 55px;
+    background: url('./partner/css_sprites_s7.png') -10px -10px;
+}
+
+.s7:hover:after{
+    background-position:-10px -85px;
+}
+
+.lets_fly::after{
+    width: 222px; 
+    height: 67px;
+    background: url('./partner/css_sprites_lets_fly.png') -10px -10px;
+}
+
+.lets_fly:hover::after{
+    background-position:-10px -97px;
+}
+
+.lufthansa::after{
+    width: 224px;
+     height: 40px;
+    background: url('./partner/css_sprites_lufthansa.png') -10px -10px;
+}
+
+.lufthansa:hover::after{
+    background-position:-10px -70px;
+}
+
+.airbaltic::after{
+    width: 185px;
+     height: 43px;
+    background: url('./partner/css_sprites_airbaltic.png') -10px -10px;
+}
+
+.airbaltic:hover::after{
+    background-position:-10px -73px;
+}
+
+.pegasus::after{
+    width: 179px;
+    height: 33px;
+    background: url('./partner/css_sprites_pegasus.png') -10px -10px;
+}
+
+.pegasus:hover::after{
+    background-position:-10px -63px;
+}
+
+.ural::after{
+    width: 300px;
+    height: 19px;
+    background: url('./partner/css_sprites_ural.png') -10px -10px;
+}
+
+.ural:hover::after{
+    background-position:-10px -49px;
+}
+
+.pegas::after{
+    width: 252px;
+    height: 49px;
+    background: url('./partner/css_sprites_pegas.png') -10px -10px;
+}
+
+.pegas:hover::after{
+    background-position:-10px -79px;
+}
+
+.border-line{
+    background: #001821;
+}
