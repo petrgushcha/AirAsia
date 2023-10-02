@@ -155,20 +155,24 @@ address{
     justify-content: center;
 }
 
-.dropdown__corner{
-    border: 10px solid transparent;
-    width: 0px;
-    height: 0px;
-    border-bottom-color: #EDEDED;
-    border-top: 0px;
-    margin-left: 60%;
-}
+
+
+.dropdown__content::before{
+    content:"";
+    display:inline-block;
+    border:10px solid transparent;
+    border-bottom-color:#EDEDED;    
+    position:absolute;
+    bottom:100%;
+    right: 25%;
+    }
 
 .dropdown__content{
     background-color: #EDEDED;
     padding: 17px;
     border-radius: 5px;
     width: 157px;
+    margin-top: 10px;
 }
 
 .dropdown__text{
