@@ -155,8 +155,6 @@ address{
     justify-content: center;
 }
 
-
-
 .dropdown__content::before{
     content:"";
     display:inline-block;
@@ -173,6 +171,7 @@ address{
     border-radius: 5px;
     width: 157px;
     margin-top: 10px;
+    position: relative;
 }
 
 .dropdown__text{
